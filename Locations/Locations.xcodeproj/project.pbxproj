@@ -32,6 +32,20 @@
 			remoteGlobalIDString = 5CAF466526852407003EE990;
 			remoteInfo = Locations;
 		};
+		5CAF46C6268525B1003EE990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CAF46C1268525B0003EE990 /* LocationSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5CAF46A7268525B0003EE990;
+			remoteInfo = LocationSDK;
+		};
+		5CAF46C8268525B1003EE990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CAF46C1268525B0003EE990 /* LocationSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5CAF46B0268525B0003EE990;
+			remoteInfo = LocationSDKTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +63,7 @@
 		5CAF46872685240A003EE990 /* LocationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CAF468B2685240A003EE990 /* LocationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsUITests.swift; sourceTree = "<group>"; };
 		5CAF468D2685240A003EE990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CAF46C1268525B0003EE990 /* LocationSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LocationSDK.xcodeproj; path = ../LocationSDK/LocationSDK.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +94,7 @@
 		5CAF465D26852407003EE990 = {
 			isa = PBXGroup;
 			children = (
+				5CAF46C1268525B0003EE990 /* LocationSDK.xcodeproj */,
 				5CAF466826852407003EE990 /* Locations */,
 				5CAF467F2685240A003EE990 /* LocationsTests */,
 				5CAF468A2685240A003EE990 /* LocationsUITests */,
@@ -150,6 +166,15 @@
 			children = (
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5CAF46C2268525B0003EE990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CAF46C7268525B1003EE990 /* LocationSDK.framework */,
+				5CAF46C9268525B1003EE990 /* LocationSDKTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +266,12 @@
 			mainGroup = 5CAF465D26852407003EE990;
 			productRefGroup = 5CAF466726852407003EE990 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5CAF46C2268525B0003EE990 /* Products */;
+					ProjectRef = 5CAF46C1268525B0003EE990 /* LocationSDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5CAF466526852407003EE990 /* Locations */,
@@ -249,6 +280,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5CAF46C7268525B1003EE990 /* LocationSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LocationSDK.framework;
+			remoteRef = 5CAF46C6268525B1003EE990 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5CAF46C9268525B1003EE990 /* LocationSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LocationSDKTests.xctest;
+			remoteRef = 5CAF46C8268525B1003EE990 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5CAF466426852407003EE990 /* Resources */ = {
