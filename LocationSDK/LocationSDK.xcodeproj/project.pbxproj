@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C3E59E02691D221009A5053 /* CitiesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59DF2691D221009A5053 /* CitiesResponse.swift */; };
+		5C3E59E42691D3F3009A5053 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59E32691D3F3009A5053 /* Request.swift */; };
+		5C3E59E62691D415009A5053 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59E52691D415009A5053 /* Environment.swift */; };
+		5C3E59E82691D456009A5053 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59E72691D456009A5053 /* Client.swift */; };
+		5C3E59EA2691D931009A5053 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E59E92691D931009A5053 /* Localized.strings */; };
+		5C3E59EC2691D960009A5053 /* CitieRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59EB2691D960009A5053 /* CitieRequest.swift */; };
 		5CAF46B1268525B0003EE990 /* LocationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAF46A7268525B0003EE990 /* LocationSDK.framework */; };
 		5CAF46B6268525B0003EE990 /* LocationSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF46B5268525B0003EE990 /* LocationSDKTests.swift */; };
 		5CAF46B8268525B0003EE990 /* LocationSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAF46AA268525B0003EE990 /* LocationSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C3E59DF2691D221009A5053 /* CitiesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesResponse.swift; sourceTree = "<group>"; };
+		5C3E59E32691D3F3009A5053 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		5C3E59E52691D415009A5053 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		5C3E59E72691D456009A5053 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		5C3E59E92691D931009A5053 /* Localized.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localized.strings; sourceTree = "<group>"; };
+		5C3E59EB2691D960009A5053 /* CitieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitieRequest.swift; sourceTree = "<group>"; };
 		5CAF46A7268525B0003EE990 /* LocationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CAF46AA268525B0003EE990 /* LocationSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationSDK.h; sourceTree = "<group>"; };
 		5CAF46AB268525B0003EE990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +62,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C3E59DD2691D1EF009A5053 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E59E22691D3B2009A5053 /* Requests */,
+				5C3E59E12691D39E009A5053 /* Network Engine */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5C3E59DE2691D1F8009A5053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E59DF2691D221009A5053 /* CitiesResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C3E59E12691D39E009A5053 /* Network Engine */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E59E32691D3F3009A5053 /* Request.swift */,
+				5C3E59E52691D415009A5053 /* Environment.swift */,
+				5C3E59E72691D456009A5053 /* Client.swift */,
+			);
+			path = "Network Engine";
+			sourceTree = "<group>";
+		};
+		5C3E59E22691D3B2009A5053 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				5C3E59EB2691D960009A5053 /* CitieRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
 		5CAF469D268525B0003EE990 = {
 			isa = PBXGroup;
 			children = (
@@ -71,8 +118,11 @@
 		5CAF46A9268525B0003EE990 /* LocationSDK */ = {
 			isa = PBXGroup;
 			children = (
+				5C3E59DE2691D1F8009A5053 /* Model */,
+				5C3E59DD2691D1EF009A5053 /* Service */,
 				5CAF46AA268525B0003EE990 /* LocationSDK.h */,
 				5CAF46AB268525B0003EE990 /* Info.plist */,
+				5C3E59E92691D931009A5053 /* Localized.strings */,
 			);
 			path = LocationSDK;
 			sourceTree = "<group>";
@@ -147,6 +197,7 @@
 				TargetAttributes = {
 					5CAF46A6268525B0003EE990 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					5CAF46AF268525B0003EE990 = {
 						CreatedOnToolsVersion = 12.5;
@@ -177,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3E59EA2691D931009A5053 /* Localized.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3E59EC2691D960009A5053 /* CitieRequest.swift in Sources */,
+				5C3E59E02691D221009A5053 /* CitiesResponse.swift in Sources */,
+				5C3E59E62691D415009A5053 /* Environment.swift in Sources */,
+				5C3E59E82691D456009A5053 /* Client.swift in Sources */,
+				5C3E59E42691D3F3009A5053 /* Request.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +398,7 @@
 		5CAF46BC268525B0003EE990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Q54999GL5Z;
@@ -357,6 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nkanyiso.www.LocationSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +424,7 @@
 		5CAF46BD268525B0003EE990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Q54999GL5Z;
@@ -389,6 +449,7 @@
 		5CAF46BF268525B0003EE990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q54999GL5Z;
 				INFOPLIST_FILE = LocationSDKTests/Info.plist;
@@ -407,6 +468,7 @@
 		5CAF46C0268525B0003EE990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q54999GL5Z;
 				INFOPLIST_FILE = LocationSDKTests/Info.plist;
