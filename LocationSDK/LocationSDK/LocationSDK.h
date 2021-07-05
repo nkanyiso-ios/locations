@@ -1,9 +1,4 @@
-//
-//  LocationSDK.h
-//  LocationSDK
-//
-//  Created by Nkanyiso Hlela on 2021/06/24.
-//
+
 
 #import <Foundation/Foundation.h>
 

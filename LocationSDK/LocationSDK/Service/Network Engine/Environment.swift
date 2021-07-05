@@ -5,5 +5,5 @@ struct Environment {
 }
 
 extension Environment {
-    static let development = Environment(baseUrl: URL(string: "http://www.mocky.io/v2/")!)
+    static let development = Environment(baseUrl: URL(string: "https://www.mocky.io/v2/")!)
 }

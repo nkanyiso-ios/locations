@@ -1,26 +1,26 @@
 import Foundation
 
 // MARK: - CitiesReponse
-struct CitiesReponse: Codable {
+public struct CitiesReponse: Codable {
     let cities: [City]
 }
 
 // MARK: - City
-struct City: Codable {
-    let id: Int
-    let name: String
+public struct City: Codable {
+    public let id: Int
+    public let name: String
     let malls: [Mall]
 }
 
 // MARK: - Mall
-struct Mall: Codable {
-    let id: Int
-    let name: String
+public struct Mall: Codable {
+    public let id: Int
+    public let name: String
     let shops: [Shop]
 }
 
 // MARK: - Shop
-struct Shop: Codable {
-    let id: Int
-    let name: String
+public struct Shop: Codable {
+    public let id: Int
+    public let name: String
 }

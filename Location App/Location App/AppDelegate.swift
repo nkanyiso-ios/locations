@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Locations
+//  Location App
 //
-//  Created by Nkanyiso Hlela on 2021/06/24.
+//  Created by Nkanyiso Hlela on 2021/07/05.
 //
 
 import UIKit
@@ -10,7 +10,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Locations
+//  Location App
 //
-//  Created by Nkanyiso Hlela on 2021/06/24.
+//  Created by Nkanyiso Hlela on 2021/07/05.
 //
 
 import UIKit

@@ -1,9 +1,4 @@
-//
-//  LocationSDKTests.swift
-//  LocationSDKTests
-//
-//  Created by Nkanyiso Hlela on 2021/06/24.
-//
+
 
 import XCTest
 @testable import LocationSDK

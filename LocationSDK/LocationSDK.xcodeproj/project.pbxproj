@@ -13,6 +13,9 @@
 		5C3E59E82691D456009A5053 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59E72691D456009A5053 /* Client.swift */; };
 		5C3E59EA2691D931009A5053 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E59E92691D931009A5053 /* Localized.strings */; };
 		5C3E59EC2691D960009A5053 /* CitieRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59EB2691D960009A5053 /* CitieRequest.swift */; };
+		5C3E59EE269213A8009A5053 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59ED269213A8009A5053 /* LocationViewModel.swift */; };
+		5C3E59F026921B71009A5053 /* LocationProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59EF26921B71009A5053 /* LocationProcessor.swift */; };
+		5C3E59F226921C9E009A5053 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E59F126921C9E009A5053 /* Constant.swift */; };
 		5CAF46B1268525B0003EE990 /* LocationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAF46A7268525B0003EE990 /* LocationSDK.framework */; };
 		5CAF46B6268525B0003EE990 /* LocationSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF46B5268525B0003EE990 /* LocationSDKTests.swift */; };
 		5CAF46B8268525B0003EE990 /* LocationSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAF46AA268525B0003EE990 /* LocationSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +38,9 @@
 		5C3E59E72691D456009A5053 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		5C3E59E92691D931009A5053 /* Localized.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localized.strings; sourceTree = "<group>"; };
 		5C3E59EB2691D960009A5053 /* CitieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitieRequest.swift; sourceTree = "<group>"; };
+		5C3E59ED269213A8009A5053 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		5C3E59EF26921B71009A5053 /* LocationProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProcessor.swift; sourceTree = "<group>"; };
+		5C3E59F126921C9E009A5053 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		5CAF46A7268525B0003EE990 /* LocationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CAF46AA268525B0003EE990 /* LocationSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationSDK.h; sourceTree = "<group>"; };
 		5CAF46AB268525B0003EE990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,6 +129,9 @@
 				5CAF46AA268525B0003EE990 /* LocationSDK.h */,
 				5CAF46AB268525B0003EE990 /* Info.plist */,
 				5C3E59E92691D931009A5053 /* Localized.strings */,
+				5C3E59ED269213A8009A5053 /* LocationViewModel.swift */,
+				5C3E59EF26921B71009A5053 /* LocationProcessor.swift */,
+				5C3E59F126921C9E009A5053 /* Constant.swift */,
 			);
 			path = LocationSDK;
 			sourceTree = "<group>";
@@ -246,7 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3E59F026921B71009A5053 /* LocationProcessor.swift in Sources */,
 				5C3E59EC2691D960009A5053 /* CitieRequest.swift in Sources */,
+				5C3E59EE269213A8009A5053 /* LocationViewModel.swift in Sources */,
+				5C3E59F226921C9E009A5053 /* Constant.swift in Sources */,
 				5C3E59E02691D221009A5053 /* CitiesResponse.swift in Sources */,
 				5C3E59E62691D415009A5053 /* Environment.swift in Sources */,
 				5C3E59E82691D456009A5053 /* Client.swift in Sources */,
